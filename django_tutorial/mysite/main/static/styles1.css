@@ -1,0 +1,80 @@
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+  h1 {
+      font-size: 900px;
+  }
+
+  p {
+      font-size: 200px;
+  }
+
+}
+body {
+    background-image: url(https://img.freepik.com/fotos-premium/hotel-resort-de-luxo-com-piscina-e-vista-para-a-natureza-a-noite_467541-1088.jpg);
+    background-size: cover;
+    background-position: center;  
+}
+
+
+body {
+    font-family: sans-serif
+    
+   
+    
+}
+
+#change_hotel_detail {
+    width: 900px;
+    margin: 200px auto;
+    color:  white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 70px;
+    font-style: italic;
+    border-bottom: #4CAF50;
+
+}
+
+.hotel_details p {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+
+
+.popo {
+    background-color: #4CAF50;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+   
+
+
+a {
+    background-color: hwb(0 22% 11%);
+    color: black;
+    font-size: 3em;
+}
+.images{
+        background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+    }
+
+
+.lol{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 20px 20px 20px 20px solid;
+    border-radius: 30px;
+    }

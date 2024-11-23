@@ -1,0 +1,41 @@
+{% extends "main/baseinner.html" %}
+
+{% block title %} {{ h.name}}  {% endblock %}
+
+{% block hotel %}  {{ h.name}} {% endblock %}
+{% block hotelname %} {{ h.name}}  {% endblock %}
+
+{% block description %}    
+    {% for  description in  h.desc_set.all %}
+        {{description.description }}
+    {% endfor %}
+{% endblock %}
+
+
+{% block ratings %}    
+    {% for  ratings in h.rats_set.all  %}
+        {{ratings.ratings }}
+    {% endfor %}
+{% endblock %}
+
+{% block price %}    
+    {% for  price in h.price_set.all  %}
+        {{price.price }}
+    {% endfor %}
+{% endblock %}
+
+
+
+{% block tora %}    
+    {% for  types_of_room_available  in h.tora_set.all  %}
+        {{ types_of_room_available.types_of_room_available }}
+    {% endfor %}
+{% endblock %}
+
+{% block address %}    
+    {% for  address in h.address_set.all  %}
+        {{address.address }}
+    {% endfor %}
+{% endblock %}
+
+

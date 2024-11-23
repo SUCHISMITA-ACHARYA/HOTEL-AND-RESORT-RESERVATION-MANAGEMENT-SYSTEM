@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}   {% endblock %}</title>
+    <link rel="stylesheet" href="static/styles1.css">
+</head>
+<body>
+  <h1 style="font-size: 90px; font-style: italic ;font-family: Brush Script MT, Comic Sans MS, cursive;;
+  border: none; color: rgb(98, 60, 201); border-color: azure;
+  border-radius: 30px; background: linear-gradient(to bottom, rgb(156, 156, 204), rgb(224, 224, 132));">{% block hotel %}   {% endblock %}</h1>
+ 
+
+  </body>
+  <body style="background-image: url(https://img.freepik.com/fotos-premium/hotel-resort-de-luxo-com-piscina-e-vista-para-a-natureza-a-noite_467541-1088.jpg); background-size: cover; background-position: center;">
+    </body>
+
+
+    <div id="change_hotel_detail">
+       
+        <div class="hotel_details">
+          
+            <p style="font-size: 50px; background: linear-gradient(to bottom, rgb(156, 156, 204))"><b>Name: {% block hotelname %}   {% endblock %}</b></p>
+            <p style="font-size: 50px; background: linear-gradient(to bottom, rgb(156, 156, 204))"><b>Description: {% block description %}   {% endblock %}</b></p>
+            <p style="font-size: 50px; background: linear-gradient(to bottom, rgb(156, 156, 204))"><b>Ratings:{% block ratings %}   {% endblock %} </b></p>
+            <p style="font-size: 50px; background: linear-gradient(to bottom, rgb(156, 156, 204))"><b>Price: {% block price %}   {% endblock %}</b></p>
+            <p style="font-size: 50px; background: linear-gradient(to bottom, rgb(156, 156, 204))"><b>Types of room available: {% block tora %}   {% endblock %}</b></p>
+            <p style="font-size: 50px; background: linear-gradient(to bottom, rgb(156, 156, 204))"><b>Address:{% block address %}   {% endblock %} </b></p>
+          
+        <div class="buttons">
+            <button>BOOK</button>
+            <a href="Home">Cancel</a>
+        </div>
+    </div>
+</body>
+</html>

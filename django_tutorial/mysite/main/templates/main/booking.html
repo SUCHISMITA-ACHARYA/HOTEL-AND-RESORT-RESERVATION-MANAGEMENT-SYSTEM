@@ -1,0 +1,25 @@
+{% extends "main/baseinner.html" %}
+
+{% block title %} {{ h.name}}  {% endblock %}
+
+{% block hotel %}  {{ h.name}} {% endblock %}
+{% block hotelname %} {{ h.name}}  {% endblock %}
+
+{% block description %}  {{ h.desc_set.all }} {% endblock %}
+{% block ratings %} {{ h.rats_set.all }}  {% endblock %} 
+{% block price %}  {{ h.price_set.all }} {% endblock %}
+{% block tora %} {{ h.tora_set.all }}  {% endblock %}
+{% block address %} {{ h.address_set.all }}  {% endblock %} 
+
+
+
+{%extends 'main/base.html' %}
+
+{%block title %} Create New List {% endblock %}
+
+{%block content %}
+
+{% endblock %}
+
+
+          

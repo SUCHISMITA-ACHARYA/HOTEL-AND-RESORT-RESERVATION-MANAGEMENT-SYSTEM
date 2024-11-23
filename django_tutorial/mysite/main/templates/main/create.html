@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet">
+      <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="static/styles.css" />
+    <title>HR - Hotel Registration</title>
+  </head>
+  <body style="margin: 0;">
+    <div style="background-color:#184585; ">
+        <BR><h2 style="text-align: center; color: azure; font-size: 40px;">HOTEL AND RESORT <br>RESERVATION SYSTEM </h2> <br>   
+    </div>
+    <nav style="background-color: #b9aadf; padding: 20px; overflow: hidden;">
+      <ul style="list-style: none; margin: 0; padding: 0; display: flex;">
+        <li style="float: left;"><a href="#" style="display: block; color: white; text-align: center; padding: 14px 16px; font-size: 30px; text-decoration: none;">Home</a></li>
+        <li style="float: left;"><a href="#" style="display: block; color: white; text-align: center; padding: 14px 16px; font-size: 30px; text-decoration: none;">About</a></li>
+        <li style="float: left;"><a href="#" style="display: block; color: white; text-align: center; padding: 14px 16px; font-size: 30px; text-decoration: none;">Services</a></li>
+        <li style="float: left;"><a href="#" style="display: block; color: white; text-align: center; padding: 14px 16px; font-size: 30px; text-decoration: none;">Contact</a></li>
+      </ul>
+    </nav>
+
+  <div style="text-align: center;"><h1><b>ENTER YOUR HOTEL NAME</b></h1></div>
+ <div style="font-size: 30px; margin-left: 500px; ">
+  <form method="post">
+    {% csrf_token %}  {{form.as_p}}
+  </div>
+
+  <div>
+    <span><button style="width: 200px; display: inline-block; height: 50px; font-size: 18px; margin-left: 550px;">SUBMIT</button></span>
+    
+
+  </div>
+    </body>
+  
+  
+
+  </form>
+
+</body>
+</html>
+

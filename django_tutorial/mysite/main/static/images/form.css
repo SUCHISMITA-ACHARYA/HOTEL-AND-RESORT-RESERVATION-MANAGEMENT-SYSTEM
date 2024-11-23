@@ -1,0 +1,52 @@
+/* General form styles */
+form {
+    display: flex; /* Arrange form elements horizontally */
+    flex-wrap: wrap; /* Allow elements to wrap to next line if needed */
+    margin: 1rem auto; /* Add some margin for visual spacing */
+    width: fit-content; /* Adjust width as needed */
+    padding: 1rem; /* Add padding for better spacing */
+    border: 1px solid #ddd; /* Add a thin border */
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  /* Labels */
+  label {
+    display: block; /* Display labels on their own line */
+    margin-bottom: 0.5rem; /* Add some space between label and input */
+    font-weight: bold; /* Make labels bold for better readability */
+  }
+  
+  /* Input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px; /* Add rounded corners to input fields */
+    width: 100%; /* Make input fields fill available space */
+  }
+  
+  /* Text area */
+  textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%; /* Make textarea fill available space */
+    min-height: 100px; /* Set minimum height for textarea */
+  }
+  
+  /* Submit button */
+  button[type="submit"] {
+    background-color: #4CAF50; /* Green color for submit button */
+    color: white;
+    padding: 0.75rem 1.5rem; /* Adjust padding for button size */
+    border: none;
+    border-radius: 5px; /* Add rounded corners to button */
+    cursor: pointer; /* Change cursor to indicate clickable element */
+  }
+  
+  /* Submit button hover effect (optional) */
+  button[type="submit"]:hover {
+    background-color: #45A049; /* Slightly darker green on hover */
+  }
+  
